@@ -8,5 +8,5 @@ def soma_numeros(lista):
 
 #Principal
 
-lista[1,3,5,7,9]
+lista = [1,3,5,7,9]
 print(f'Soma: {soma_numeros(lista)}')
