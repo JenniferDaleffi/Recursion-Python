@@ -20,3 +20,17 @@ Aprender a formular programas de forma recursiva.
 ❥ Implementar a formulação recursiva de um problema.
 
 ❥ Entender como a recursão é implementada por um sistema computacional.
+
+
+# Como funciona?
+
+Lista = [1,3,5,7,9]
+soma (lista)
+
+'''Return (1) + soma ([3,5,7,9])
+Return (3) + soma ([5,7,9])
+Return (5) + soma ([7,9])
+Return (7) + soma ([9])
+Para no 9 que vira o número da lsita que precisa obrigatoriamente voltar a primeira posição
+somando assim valores quando retorna 9+7+ 16 + 5 = 21 + 3 = 24 + 1 + 25 retorna 25'''
+
