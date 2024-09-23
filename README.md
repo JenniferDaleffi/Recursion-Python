@@ -44,7 +44,7 @@ def soma_numeros(lista):
 	    else:
 	        return lista[0] + soma_numeros(lista[1:])
 	
-	#Principal
+ #Principal
 	
 lista = [1,3,5,7,9]
 	print(f'Soma: {soma_numeros(lista)}')
