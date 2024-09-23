@@ -34,3 +34,17 @@ Return (7) + soma ([9])
 Para no 9 que vira o número da lsita que precisa obrigatoriamente voltar a primeira posição
 somando assim valores quando retorna 9+7+ 16 + 5 = 21 + 3 = 24 + 1 + 25 retorna 25'''
 
+# Teste no Python Tutor
+
+#Calcular a soma de lista de números (com recursão)
+
+def soma_numeros(lista):
+	    if len(lista) == 1:
+	        return lista[0]
+	    else:
+	        return lista[0] + soma_numeros(lista[1:])
+	
+	#Principal
+	
+lista = [1,3,5,7,9]
+	print(f'Soma: {soma_numeros(lista)}')
